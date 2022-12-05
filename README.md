@@ -16,6 +16,7 @@ A line displaying the category total.
 Here is an example of the output:
 
 *************Food*************
+
 initial deposit        1000.00
 
 groceries               -10.15
