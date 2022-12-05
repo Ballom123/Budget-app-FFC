@@ -1,5 +1,5 @@
 # Budget-app-FFC
-A simple backend budget app, which was one of the 5 final projects for Freecodecamp's Scientific Computing with Python course.
+A simple backend budget app, which was one of the 5 final projects for Freecodecamp's Scientific Computing with Python course. The assingment instructions follow:
 
 Complete the Category class in budget.py. It should be able to instantiate objects based on different budget categories like food, clothing, and entertainment. When objects are created, they are passed in the name of the category. The class should have an instance variable called ledger that is a list. The class should also contain the following methods:
 
@@ -17,10 +17,16 @@ Here is an example of the output:
 
 *************Food*************
 initial deposit        1000.00
+
 groceries               -10.15
+
 restaurant and more foo -15.89
+
 Transfer to Clothing    -50.00
+
 Total: 923.96
+
+
 Besides the Category class, create a function (outside of the class) called create_spend_chart that takes a list of categories as an argument. It should return a string that is a bar chart.
 
 The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The "bars" in the bar chart should be made out of the "o" character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says "Percentage spent by category".
